@@ -56,3 +56,6 @@ array[j] = temp;
 
 ### C++ STL sort()
 - 정렬함수
+
+### vector, pair
+- vector안에 pair로 한쌍을 만들어 사용한다.
