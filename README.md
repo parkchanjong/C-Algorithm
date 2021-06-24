@@ -59,3 +59,13 @@ array[j] = temp;
 
 ### vector, pair
 - vector안에 pair로 한쌍을 만들어 사용한다.
+
+### 힙구조
+- 최대힙
+  - 부모노드가 자식노드 보다 큰 힙
+
+### 힙 정렬
+- 힙 트리 구조를 이용한 정렬방법.
+- O(N*logN)
+- 힙생성(Heapify Algorithm) 알고리즘 수행
+- 한번의 힙생성 시간복잡도: O(logN)
