@@ -1,15 +1,24 @@
- #include<stdio.h>
- #include<algorithm>
- int number, data[1000000];
+#include<iostream>
 
- int main() {
-   scanf("%d", &number);
-   for (int i = 0; i < number; i++) {
-     scanf("%d", & data[i]);
-   }
-   std::sort(data, data + number);
-   for (int i = 0; i < number; i++) {
-     printf("%d\n", data[i]);
-   }
-   return 0;
- }
+using namespace std;
+
+int n, m;
+int a[10001];
+
+int main() {
+  scanf("%d", &n);
+  for (int i = 0; i < n; i++)
+  {
+    scanf("%d", &m);
+    a[m]++;
+  }
+  for (int i = 0; i < 10001; i++)
+  {
+    while (a[i] != 0)
+    {
+      printf("%d\n", i);
+      a[i]--;
+    }  
+  }
+  return 0;
+}
