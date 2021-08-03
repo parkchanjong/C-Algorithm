@@ -15,8 +15,8 @@ void unionParent(int parent[], int a, int b) {
 int findParent(int parent[], int a, int b) {
   a = getParent(parent, a);
   b = getParent(parent, b);
-  if(a == b) 1;
-  else 0;
+  if(a == b) return 1;
+  else return 0;
 }
 
 int main(void) {
@@ -31,7 +31,9 @@ int main(void) {
   unionParent(parent, 5, 6);
   unionParent(parent, 6, 7);
   unionParent(parent, 7, 8);
+  printf("%d", findParent(parent, 1, 5));
   unionParent(parent, 1, 5);
-  
+  printf("%d", findParent(parent, 1, 5));
+
   return 0;
 }
