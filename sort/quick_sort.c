@@ -10,10 +10,9 @@
    6,
    4,
    3,
-   2,
-   9
+   2,9
  };
-
+ 
  void show() {
    int i;
    for (i = 0; i < number; i++) {

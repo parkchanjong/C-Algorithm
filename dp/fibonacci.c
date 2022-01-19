@@ -10,5 +10,5 @@ int fibonacci(int x) {
 }
 
 int main(void) {
-  printf("%d", fibonacci(30));
+  printf("%d", fibonacci(1));
 };
